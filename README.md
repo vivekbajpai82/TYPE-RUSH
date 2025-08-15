@@ -1,4 +1,4 @@
-# ⌨ Typing Rush
+# ⌨ Type Rush
 
 **Typing Rush** is a fun and interactive **typing speed test game** built with **HTML, CSS, and JavaScript**.  
 It helps you practice typing, track your **WPM (Words Per Minute)**, and improve your accuracy in an engaging way. 🚀
