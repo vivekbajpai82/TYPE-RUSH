@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Typing Test</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Dark Mode Toggle -->
+  <button id="dark-mode-toggle">🌙 Dark Mode</button>
+
+  <div class="container">
+    <h1>TYPE RUSH</h1>
+
+    <div id="ShowSentence">Click Start to begin...</div>
+
+    <!-- Time Selector and Timer -->
+    <div class="timer-row">
+      <select id="time-selector">
+        <option value="15">15 sec</option>
+        <option value="30" selected>30 sec</option>
+        <option value="60">1 min</option>
+      </select>
+      <div id="show-time">0</div>
+    </div>
+
+    <!-- Typing Area -->
+    <textarea id="textarea" placeholder="Start typing here..." disabled></textarea>
+
+    <!-- Score -->
+    <div id="score">Score: 0</div>
+
+    <!-- Start/Done Button -->
+    <button id="btn">Start</button>
+  </div>
+
+  <!-- Script -->
+  <script src="index.js"></script>
+</body>
+</html>
